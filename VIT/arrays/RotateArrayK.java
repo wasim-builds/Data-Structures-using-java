@@ -25,14 +25,10 @@ public class RotateArrayK {
         int nums[] = {1, 2, 3, 4, 5, 6};  // Sample array
         int k = 3;  // Number of positions to rotate
         
-        // Rotate the array
-        int[] rotatedArray = rotate(nums, k);
+        
         
         // Print the rotated array
-        System.out.print("Rotated Array: ");
-        for (int num : rotatedArray) {
-            System.out.print(num + " ");
-        }
+        System.out.print(Arrays.toString(rotate(nums,k));
     }
 }
 
