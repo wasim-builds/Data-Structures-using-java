@@ -13,5 +13,7 @@ public class PowerOfTwo {
         for (int num : testCases) {
             System.out.println(num + " is Power of Two? " + isPowerOfTwo(num));
         }
+
+// for each value
     }
 }
