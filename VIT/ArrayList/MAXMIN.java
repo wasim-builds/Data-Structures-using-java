@@ -7,7 +7,7 @@ public class MAXMIN {
      
         ArrayList<Integer> grades = new ArrayList<Integer>();
 
-        grades.add(72);
+        grades.add(72);//adding values
         grades.add(84);
         grades.add(63);
         grades.add(55);
