@@ -25,6 +25,7 @@ public class ArrListnegativereverse{
             System.out.print(arraylists.get(i)+" ");
         }
         sc.close();
+        // get negative list
 
     }
 }
