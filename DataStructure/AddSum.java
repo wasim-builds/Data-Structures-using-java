@@ -27,5 +27,6 @@ public class AddSum {
         }
 
         throw new IllegalArgumentException("No two sum solution");
+        // two sum problems
     }
 }
