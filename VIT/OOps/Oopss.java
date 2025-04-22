@@ -1,5 +1,5 @@
 package OOps;
-// inheritence
+// inheritence 
 
 class Pen{
     String color;
