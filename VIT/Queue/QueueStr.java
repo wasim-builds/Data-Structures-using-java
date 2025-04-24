@@ -20,7 +20,7 @@ public class QueueStr {
 
         System.out.println(peeked);
         System.out.println(q);
-// queue in string
+
     }
     
 }
