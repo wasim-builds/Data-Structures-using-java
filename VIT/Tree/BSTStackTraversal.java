@@ -97,5 +97,6 @@ public class BSTStackTraversal {
         bst.inorderTraversal();    // Output: 20 30 40 50 60 70 80
         bst.preorderTraversal();   // Output: 50 30 20 40 70 60 80
         bst.postorderTraversal();  // Output: 20 40 30 60 80 70 50
+        // tree traversals
     }
 }
