@@ -3,5 +3,6 @@
         "VIT",
         "DataStructure",
         ""
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
