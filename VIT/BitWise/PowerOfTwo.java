@@ -4,6 +4,7 @@ package BitWise;
 
 public class PowerOfTwo {
     public static boolean isPowerOfTwo(int num) {
+    // num and num-1 == 0 then it is power of 2
         return (num > 0) && ((num & (num - 1)) == 0);
     }
 
