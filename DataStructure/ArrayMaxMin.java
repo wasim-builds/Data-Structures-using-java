@@ -10,7 +10,7 @@ public class ArrayMaxMin {
         List<Integer> list = Arrays.asList(arr);
         int max=Collections.max(list);
         int min =Collections.min(list);
-        //getting max and min value
+        
     
         System.out.println("Max " + max);
         System.out.println("Min " + min);
@@ -20,4 +20,5 @@ public class ArrayMaxMin {
 
     
 }
+
 
