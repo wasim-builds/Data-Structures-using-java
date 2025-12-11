@@ -1,7 +1,7 @@
 package leetcode;
 import java.util.Scanner;
 
-public class AnagramUsingArray {
+class AnagramUsingArrayWasimkhan {
     public boolean isAnagram(String s, String t) {
         int s1 = s.length();
         int t1 = t.length();
@@ -31,22 +31,20 @@ public class AnagramUsingArray {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
+            // User input
+            System.out.print("Enter first string: ");
+            String s = scanner.nextLine().toLowerCase(); // Convert to lowercase for case insensitivity
 
-        // User input
-        System.out.print("Enter first string: ");
-        String s = scanner.nextLine().toLowerCase(); // Convert to lowercase for case insensitivity
-        
-        System.out.print("Enter second string: ");
-        String t = scanner.nextLine().toLowerCase();
+            System.out.print("Enter second string: ");
+            String t = scanner.nextLine().toLowerCase();
 
-        scanner.close();
+            // Checking for anagram
+            AnagramUsingArrayWasimkhan obj = new AnagramUsingArrayWasimkhan();
+            boolean result = obj.isAnagram(s, t);
 
-        // Checking for anagram
-        AnagramUsingArray obj = new AnagramUsingArray();
-        boolean result = obj.isAnagram(s, t);
-
-        // Output result
-        System.out.println("Are the strings anagrams? " + result);
+            // Output result
+            System.out.println("Are the strings anagrams? " + result);
+        }
     }
 }
