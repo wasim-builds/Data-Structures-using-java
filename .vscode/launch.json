@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Top30TreeQuestion",
+            "request": "launch",
+            "mainClass": "Tree.Top30TreeQuestion",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "OOps.Inheritance",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Top30LinkedListQuestions",
+            "request": "launch",
+            "mainClass": "LinkedList.Top30LinkedListQuestions",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "OOps.Polymorphism",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "CelebrityProblem",
+            "request": "launch",
+            "mainClass": "Stack.CelebrityProblem",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTrees",
+            "request": "launch",
+            "mainClass": "Tree.BinaryTrees",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
             "name": "StringToInteger",
             "request": "launch",
             "mainClass": "Strings.StringToInteger",

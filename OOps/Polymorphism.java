@@ -25,7 +25,9 @@ public class Polymorphism {
         Vehicle v2 = new Bike();
         
         v1.drive();  // Output: Driving a car...
-        v2.drive();  // Output: Riding 
-
-
-// Regardless of the type, the driver uses the same "Drive" action, but the behavior changes based on the vehicle.
+        v2.drive();  // Output: Riding a bike...
+        
+        // Regardless of the type, the driver uses the same "Drive" action, 
+        // but the behavior changes based on the vehicle.
+    }
+}

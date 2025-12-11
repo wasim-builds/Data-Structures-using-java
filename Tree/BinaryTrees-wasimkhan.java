@@ -113,7 +113,7 @@ class BinaryTree {
 }
 
 // Main class
-public class BinaryTrees {
+class BinaryTreesWasimkhan {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
 
