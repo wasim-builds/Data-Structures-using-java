@@ -13,8 +13,10 @@ public class SerializeDeserializeBinaryTree {
                 sb.append("#,");
             } else {
                 sb.append(n.value).append(',');
-                q.add(n.left);
-                q.add(n.right);
+                if (n.left != null || n.right != null) {
+                    q.add(n.left);
+                    q.add(n.right);
+                }
             }
         }
         return sb.toString();
@@ -24,24 +26,34 @@ public class SerializeDeserializeBinaryTree {
     public static TreeNode deserialize(String data) {
         if (data == null || data.isEmpty()) return null;
         String[] parts = data.split(",");
-        int idx = 0;
-        TreeNode root = parse(parts[idx++]);
-        java.util.ArrayDeque<TreeNode> q = new java.util.ArrayDeque<>();
-        q.add(root);
-        while (!q.isEmpty()) {
-            TreeNode n = q.poll();
-            if (n == null) continue;
-            n.left = parse(parts[idx++]);
-            n.right = parse(parts[idx++]);
-            q.add(n.left);
-            q.add(n.right);
-        }
-        return root;
+        java.util.Queue<String> q = new java.util.LinkedList<>(java.util.Arrays.asList(parts));
+        return buildDeserialize(q);
     }
 
-    private static TreeNode parse(String s) {
-        if (s.equals("#") || s.isEmpty()) return null;
-        return new TreeNode(Integer.parseInt(s));
+    private static TreeNode buildDeserialize(java.util.Queue<String> q) {
+        String val = q.poll();
+        if (val == null || val.equals("#")) return null;
+        TreeNode root = new TreeNode(Integer.parseInt(val));
+        java.util.Queue<TreeNode> nodeQ = new java.util.LinkedList<>();
+        nodeQ.add(root);
+        while (!nodeQ.isEmpty()) {
+            TreeNode node = nodeQ.poll();
+            if (!q.isEmpty()) {
+                String l = q.poll();
+                if (l != null && !l.isEmpty() && !l.equals("#")) {
+                    node.left = new TreeNode(Integer.parseInt(l));
+                    nodeQ.add(node.left);
+                }
+            }
+            if (!q.isEmpty()) {
+                String r = q.poll();
+                if (r != null && !r.isEmpty() && !r.equals("#")) {
+                    node.right = new TreeNode(Integer.parseInt(r));
+                    nodeQ.add(node.right);
+                }
+            }
+        }
+        return root;
     }
 
     public static void main(String[] args) {
