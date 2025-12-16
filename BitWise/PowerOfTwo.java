@@ -7,6 +7,8 @@ public class PowerOfTwo {
         return (num > 0) && ((num & (num - 1)) == 0);
     }
 
+// recalling 
+
     public static void main(String[] args) {
         int[] testCases = {1, 2, 3, 4, 8, 16, 31, 32, 64, 100};
 
