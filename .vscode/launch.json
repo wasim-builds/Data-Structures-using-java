@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveKDigits",
+            "request": "launch",
+            "mainClass": "Stack.RemoveKDigits",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "AsteroidCollision",
+            "request": "launch",
+            "mainClass": "Stack.AsteroidCollision",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "BasicCalculator",
+            "request": "launch",
+            "mainClass": "Stack.BasicCalculator",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
             "name": "Q03Inorder",
             "request": "launch",
             "mainClass": "Tree.Q03Inorder",
