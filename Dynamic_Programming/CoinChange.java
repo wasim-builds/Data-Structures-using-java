@@ -17,7 +17,7 @@ public class CoinChange {
         }
         return dp[amount] > amount ? -1 : dp[amount];
     }
-
+    //printing
     public static void main(String[] args) {
         int result = coinChange(new int[]{1, 2, 5}, 11);
         System.out.println("Coin Change: " + result);
