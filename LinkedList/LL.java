@@ -1,7 +1,7 @@
 package LinkedList;
 public class LL {
     Node head;
-
+// creating constructor
     class Node {
         String data;
         Node next;
