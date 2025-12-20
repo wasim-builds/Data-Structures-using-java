@@ -86,6 +86,9 @@ public class LL {
             return;
         }
 
+
+
+        
         Node currNode = head;
         while (currNode != null) {
             System.out.print(currNode.data + " -> ");
