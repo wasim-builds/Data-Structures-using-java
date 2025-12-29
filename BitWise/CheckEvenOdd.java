@@ -1,13 +1,10 @@
-package BitWise;
-
+// 1. Check if a number is even or odd using bitwise operator
 public class CheckEvenOdd {
     public static void main(String[] args) {
-        int num=7;
-        if((num&1)==0){
-            System.out.println("even");
-        }
-        else{
-            System.out.println("odd");
-        }
+        int n = 5;
+        if ((n & 1) == 0)
+            System.out.println(n + " is Even");
+        else
+            System.out.println(n + " is Odd");
     }
 }
