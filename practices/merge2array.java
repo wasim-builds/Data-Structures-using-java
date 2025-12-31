@@ -8,6 +8,7 @@ public class merge2array {
         //11345
         //12345
         int arr2[]={1,1,3,4,5};
+        System.out.println();
         
     }
     
