@@ -18,8 +18,9 @@ public class TwoSum
             mp.put(nums[i],i);
             
         }
-        return new int[]{}; // return empty array if no result found
-        
+        return new int[]{}; 
+
+		
     }
 	public static void main(String[] args) {
 	    
