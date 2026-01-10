@@ -9,6 +9,7 @@ class Main {
         map.put("lokesh",2);
         map.put("mahesh",3);
         System.out.println(map);
+// check
         // if(map.containsKey("wasim")){
         //     System.out.println("contains");
         // }
