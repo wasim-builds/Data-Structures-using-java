@@ -43,7 +43,7 @@ public class StackUsingQueues {
         }
         return q1.peek();
     }
-    
+
     // Check if empty - O(1)
     public boolean empty() {
         return q1.isEmpty();
@@ -58,3 +58,4 @@ public class StackUsingQueues {
         System.out.println("Empty: " + stack.empty()); // false
     }
 }
+

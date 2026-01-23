@@ -8,22 +8,35 @@ This repository contains well-organized implementations of fundamental and advan
 
 ## 📂 Repository Structure
 
-├── arrays/              # Array manipulation and algorithms
-├── ArrayList/           # ArrayList operations and implementations
-├── LinkedList/          # Linked List implementations and problems
-├── Stack/               # Stack data structure and applications
-├── Queue/               # Queue implementations
-├── Tree/                # Binary Trees, BST, and tree traversals
-├── hashmap/             # HashMap operations and use cases
-├── Strings/             # String manipulation algorithms
-├── BitWise/             # Bit manipulation techniques
-├── Matrix/              # 2D array and matrix operations
-├── Dynamic_Programming/ # DP solutions and optimizations
-├── RecursionProb/       # Recursion-based problem solving
-├── OOps/                # Object-Oriented Programming concepts
-├── leetcode/            # LeetCode problem solutions
-├── NeetCode/            # NeetCode pattern-based solutions
-└── practices/           # General practice problems
+├── arrays/                   # Array manipulation and algorithms
+├── ArrayList/                # ArrayList operations and implementations
+├── LinkedList/               # Linked List implementations and problems
+├── Stack/                    # Stack data structure and applications
+├── Queue/                    # Queue implementations
+├── Deque/                    # Double-ended queue implementation
+├── Tree/                     # Binary Trees, BST, and tree traversals
+├── Heap/                     # Min/Max Heap and Priority Queue
+├── Graph/                    # Graph algorithms (BFS, DFS, Dijkstra, MST, etc.) ⭐
+├── Trie/                     # Trie (Prefix Tree) implementation
+├── DisjointSet/              # Union-Find data structure
+├── AdvancedDataStructures/   # Segment Tree, Fenwick Tree ⭐
+├── hashmap/                  # HashMap operations and use cases
+├── Strings/                  # String manipulation algorithms
+├── StringAlgorithms/         # Advanced string matching (KMP, Rabin-Karp)
+├── BitWise/                  # Bit manipulation techniques
+├── Matrix/                   # 2D array and matrix operations
+├── Dynamic_Programming/      # DP solutions and optimizations
+├── GreedyAlgorithms/         # Greedy algorithm implementations
+├── Backtracking/             # N-Queens, Sudoku, Permutations, Subsets ⭐
+├── SortingAlgorithms/        # Heap, Counting, Radix Sort ⭐
+├── NumberTheory/             # Sieve, GCD, LCM ⭐
+├── SystemDesign/             # LRU Cache, design patterns ⭐
+├── RecursionProb/            # Recursion-based problem solving
+├── OOps/                     # Object-Oriented Programming concepts
+├── InterviewQuestions/       # Top 50 LeetCode interview questions ⭐
+├── leetcode/                 # LeetCode problem solutions
+├── NeetCode/                 # NeetCode pattern-based solutions
+└── practices/                # General practice problems
 
 
 ## 🔹 Key Features
@@ -33,15 +46,23 @@ This repository contains well-organized implementations of fundamental and advan
 - ✅ **Linked Lists**: Singly linked lists, merge operations, reversals
 - ✅ **Stacks**: Custom implementations, expression evaluation, min stack
 - ✅ **Queues**: Queue operations using arrays and collections
+- ✅ **Deque**: Double-ended queue with sliding window applications
 - ✅ **Trees**: Binary trees, BST, traversals (inorder, preorder, postorder)
+- ✅ **Heaps**: Min/Max heap, priority queue, heap sort
+- ✅ **Graphs**: BFS, DFS, Dijkstra, cycle detection, topological sort
+- ✅ **Trie**: Prefix tree with autocomplete and search functionality
+- ✅ **Disjoint Set**: Union-Find with path compression
 - ✅ **HashMaps**: Frequency counters, anagram detection, two-sum problems
 - ✅ **Strings**: Reversals, palindromes, pattern matching
 
 ### Algorithms Covered
-- 🔸 **Sorting**: Bubble Sort, Selection Sort, Quick Sort, Merge Sort
+- 🔸 **Sorting**: Bubble Sort, Selection Sort, Quick Sort, Merge Sort, Heap Sort
 - 🔸 **Searching**: Linear Search, Binary Search
+- 🔸 **Graph Algorithms**: BFS, DFS, Dijkstra's shortest path, cycle detection, topological sort
+- 🔸 **String Algorithms**: KMP pattern matching, Rabin-Karp algorithm
+- 🔸 **Greedy Algorithms**: Activity selection, fractional knapsack, job sequencing
 - 🔸 **Bit Manipulation**: Power of two, count set bits, unique elements
-- 🔸 **Dynamic Programming**: Stock prices, subsequences, Fibonacci
+- 🔸 **Dynamic Programming**: Stock prices, subsequences, Fibonacci, knapsack
 - 🔸 **Recursion**: Factorial, N-Queens, Sudoku solver, backtracking
 - 🔸 **Matrix Operations**: Addition, multiplication, max element finding
 
@@ -131,12 +152,22 @@ Or use VS Code's built-in Java runner.
 
 ## 📊 Problem Solving Stats
 
-- **Total Files**: 164+
+- **Total Files**: 270+
 - **Array Problems**: 40+
 - **String Problems**: 15+
 - **LinkedList Problems**: 8+
 - **Stack Problems**: 10+
-- **Tree Problems**: 5+
+- **Tree Problems**: 70+
+- **Graph Algorithms**: 11 (BFS, DFS, Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim, etc.)
+- **Dynamic Programming**: 38+
+- **Greedy Algorithms**: 3
+- **String Algorithms**: 2
+- **Backtracking Problems**: 5 (N-Queens, Sudoku, Permutations, Subsets, Combination Sum)
+- **Advanced Data Structures**: 7 (Segment Tree, Fenwick Tree, Trie, Heap, DSU, Deque)
+- **Sorting Algorithms**: 10+ (including Heap, Counting, Radix)
+- **Number Theory**: 2 (Sieve, GCD/LCM)
+- **System Design**: 1 (LRU Cache)
+- **Interview Questions**: 40+ ⭐
 - **LeetCode Solutions**: 10+
 - **Design Patterns**: 3+
 
@@ -159,12 +190,17 @@ Contributions are welcome! If you'd like to add new implementations or improve e
 
 ## 🎯 Future Enhancements
 
-- [ ] Add more graph algorithms
-- [ ] Include detailed explanations for each algorithm
-- [ ] Add unit tests
-- [ ] Create complexity analysis documentation
+- [x] ~~Add graph algorithms~~ ✅ **COMPLETED**
+- [x] ~~Implement advanced data structures (Trie, Heap, DSU)~~ ✅ **COMPLETED**
+- [x] ~~Add string matching algorithms~~ ✅ **COMPLETED**
+- [x] ~~Implement greedy algorithms~~ ✅ **COMPLETED**
+- [ ] Add Segment Tree and Fenwick Tree
+- [ ] Implement more graph algorithms (Bellman-Ford, Floyd-Warshall, MST)
+- [ ] Add unit tests with JUnit
+- [ ] Include detailed complexity analysis for each algorithm
 - [ ] Add more LeetCode/NeetCode solutions
-- [ ] Implement advanced data structures (Trie, Segment Tree, etc.)
+- [ ] Create visual diagrams for complex algorithms
+- [ ] Add backtracking problems (Sudoku, N-Queens variations)
 
 ## 📧 Contact
 

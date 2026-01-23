@@ -1,3 +1,4 @@
+package BitWise;
 // 1. Check if a number is even or odd using bitwise operator
 public class CheckEvenOdd {
     public static void main(String[] args) {
