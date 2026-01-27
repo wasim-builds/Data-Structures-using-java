@@ -6,6 +6,11 @@ A comprehensive collection of Data Structures and Algorithms (DSA) implementatio
 
 This repository contains well-organized implementations of fundamental and advanced DSA concepts, including practical problem-solving approaches from platforms like LeetCode and NeetCode. Perfect for students, developers, and anyone preparing for technical interviews.
 
+## 📊 New! Visual Learning Guides
+
+- **[COMPLEXITY_GUIDE.md](COMPLEXITY_GUIDE.md)** - Comprehensive algorithm complexity analysis with visual charts
+- **[PATTERNS_GUIDE.md](PATTERNS_GUIDE.md)** - Master 12 common problem-solving patterns with templates and examples
+
 ## 📂 Repository Structure
 
 ├── arrays/                   # Array manipulation and algorithms
@@ -33,10 +38,14 @@ This repository contains well-organized implementations of fundamental and advan
 ├── SystemDesign/             # LRU Cache, design patterns ⭐
 ├── RecursionProb/            # Recursion-based problem solving
 ├── OOps/                     # Object-Oriented Programming concepts
-├── InterviewQuestions/       # Top 50 LeetCode interview questions ⭐
+├── InterviewQuestions/       # Top 50+ LeetCode interview questions ⭐
+├── DesignPatterns/           # Common design patterns (Singleton, Factory, Strategy, etc.) ⭐
+├── CompetitiveProgramming/   # Fast I/O and CP templates ⭐
 ├── leetcode/                 # LeetCode problem solutions
 ├── NeetCode/                 # NeetCode pattern-based solutions
-└── practices/                # General practice problems
+├── practices/                # General practice problems
+├── COMPLEXITY_GUIDE.md       # Algorithm complexity reference ⭐
+└── PATTERNS_GUIDE.md         # Problem-solving patterns guide ⭐
 
 
 ## 🔹 Key Features
@@ -167,7 +176,9 @@ Or use VS Code's built-in Java runner.
 - **Sorting Algorithms**: 10+ (including Heap, Counting, Radix)
 - **Number Theory**: 2 (Sieve, GCD/LCM)
 - **System Design**: 1 (LRU Cache)
-- **Interview Questions**: 40+ ⭐
+- **Interview Questions**: 50+ ⭐
+- **Design Patterns**: 8+ ⭐
+- **Competitive Programming Templates**: 5+ ⭐
 - **LeetCode Solutions**: 10+
 - **Design Patterns**: 3+
 
@@ -194,13 +205,13 @@ Contributions are welcome! If you'd like to add new implementations or improve e
 - [x] ~~Implement advanced data structures (Trie, Heap, DSU)~~ ✅ **COMPLETED**
 - [x] ~~Add string matching algorithms~~ ✅ **COMPLETED**
 - [x] ~~Implement greedy algorithms~~ ✅ **COMPLETED**
-- [ ] Add Segment Tree and Fenwick Tree
-- [ ] Implement more graph algorithms (Bellman-Ford, Floyd-Warshall, MST)
+- [x] ~~Add Segment Tree and Fenwick Tree~~ ✅ **COMPLETED**
+- [x] ~~Create visual complexity guide~~ ✅ **COMPLETED**
+- [x] ~~Create problem-solving patterns guide~~ ✅ **COMPLETED**
+- [x] ~~Add design patterns~~ ✅ **COMPLETED**
 - [ ] Add unit tests with JUnit
-- [ ] Include detailed complexity analysis for each algorithm
-- [ ] Add more LeetCode/NeetCode solutions
-- [ ] Create visual diagrams for complex algorithms
-- [ ] Add backtracking problems (Sudoku, N-Queens variations)
+- [ ] Add more graph algorithms (A*, Tarjan's)
+- [ ] Create video tutorials for complex topics
 
 ## 📧 Contact
 
