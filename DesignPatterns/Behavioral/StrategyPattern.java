@@ -12,7 +12,6 @@ package DesignPatterns.Behavioral;
  * - Multiple sorting algorithms
  * - Various compression algorithms
  * - Different validation strategies
- * 
  * Interview Points:
  * - Promotes Open/Closed Principle
  * - Eliminates conditional statements
