@@ -2,7 +2,7 @@ package CompetitiveProgramming;
 
 /**
  * Geometry Basics Template for Competitive Programming
- * 
+ 
  * Contains basic geometry functions:
  * - Point and Vector operations
  * - Distance calculations
