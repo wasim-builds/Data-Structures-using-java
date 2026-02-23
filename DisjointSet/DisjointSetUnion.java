@@ -6,7 +6,7 @@
  * Space Complexity: O(n)
  * 
  * Where α(n) is the inverse Ackermann function (extremely slow growing)
- * 
+ 
  * Applications:
  * - Kruskal's MST algorithm
  * - Detecting cycles in undirected graphs
