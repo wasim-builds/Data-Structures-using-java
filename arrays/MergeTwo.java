@@ -30,6 +30,7 @@ public class MergeTwo{
             list.add(nums2[i]);
             
         }
+//
 
         System.out.println(list);
 
