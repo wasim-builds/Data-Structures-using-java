@@ -5,6 +5,7 @@
  * 
  * More efficient than naive pattern matching O(n*m)
  * 
+
  * Applications:
  * - Text search
  * - DNA sequence matching
