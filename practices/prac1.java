@@ -8,6 +8,7 @@ class TreeNode {
         this.value = value;
         left = right = null;
     }
+
 }
 class BinaryTree {
     TreeNode root;
