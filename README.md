@@ -1,29 +1,109 @@
-# 📚 Data Structures and Algorithms - Java Implementation
+# DSA in Java — Basic to Advanced
 
-A comprehensive collection of Data Structures and Algorithms (DSA) implementations in Java, designed for learning, practice, and technical interview preparation.
+A personal DSA learning repository in Java. Organized as a step-by-step roadmap from absolute basics to advanced topics like Graphs and Dynamic Programming.
 
-## 🎯 About
+---
 
-This repository contains well-organized implementations of fundamental and advanced DSA concepts, including practical problem-solving approaches from platforms like LeetCode and NeetCode. Perfect for students, developers, and anyone preparing for technical interviews.
+## RECOMMENDED FOLDER STRUCTURE (Basic to Advanced)
 
-## 📂 Repository Structure
+Follow this order when studying. Each level builds on the previous one.
 
-├── arrays/              # Array manipulation and algorithms
-├── ArrayList/           # ArrayList operations and implementations
-├── LinkedList/          # Linked List implementations and problems
-├── Stack/               # Stack data structure and applications
-├── Queue/               # Queue implementations
-├── Tree/                # Binary Trees, BST, and tree traversals
-├── hashmap/             # HashMap operations and use cases
-├── Strings/             # String manipulation algorithms
-├── BitWise/             # Bit manipulation techniques
-├── Matrix/              # 2D array and matrix operations
-├── Dynamic_Programming/ # DP solutions and optimizations
-├── RecursionProb/       # Recursion-based problem solving
-├── OOps/                # Object-Oriented Programming concepts
-├── leetcode/            # LeetCode problem solutions
-├── NeetCode/            # NeetCode pattern-based solutions
-└── practices/           # General practice problems
+```
+VIT/
+│
+├── LEVEL 1 — FOUNDATIONS
+│   ├── OOps/               ← Start here. Java classes, objects, inheritance
+│   ├── arrays/             ← Most interview questions. Rotations, searching, duplicates
+│   ├── Strings/            ← Palindromes, anagrams, reversals
+│   ├── BitWise/            ← Even/Odd, Power of 2, XOR tricks
+│   └── Matrix/             ← 2D arrays, spiral traversal
+│
+├── LEVEL 2 — CORE DATA STRUCTURES
+│   ├── ArrayList/          ← Dynamic arrays, MAXMIN, RainWater
+│   ├── hashmap/            ← Frequency count, Two-Sum, anagrams
+│   ├── Sets/               ← Unique elements, set operations
+│   ├── Stack/              ← Valid parentheses, Next Greater Element
+│   ├── Queue/              ← BFS base, sliding window max
+│   └── LinkedList/         ← Cycle detection, reverse, merge
+│
+├── LEVEL 3 — ALGORITHMS & PATTERNS
+│   ├── dsa pattern/        ← Two Pointers, Sliding Window, Prefix Sum, BFS/DFS
+│   ├── RecursionProb/      ← Fibonacci, Tower of Hanoi, Backtracking
+│   └── DequeExmp/          ← Deque for sliding window problems
+│
+├── LEVEL 4 — ADVANCED TOPICS
+│   ├── Tree/               ← BFS, DFS, BST, LCA, height
+│   ├── Dynamic_Programming/← Memoization, Tabulation, DP patterns
+│   └── Graph (TODO)        ← BFS/DFS on graphs, Topological Sort, Dijkstra
+│
+└── LEVEL 5 — PRACTICE & COMPETITIVE
+    ├── leetcode/            ← Solved LeetCode problems
+    ├── NeetCode/            ← NeetCode roadmap solutions
+    ├── CodeChef/            ← Competitive programming
+    └── practices/           ← Daily practice scratchpad
+```
+
+---
+
+## LEARNING ROADMAP
+
+### Level 1 — Foundations (Week 1-2)
+| Topic       | Key Concepts                                    | Status |
+|-------------|------------------------------------------------|--------|
+| OOPs        | Classes, Objects, Inheritance, Polymorphism    | [ ]    |
+| Arrays      | Traversal, Sorting, Searching, Two Pointers    | [ ]    |
+| Strings     | Reverse, Palindrome, Anagram, Substring        | [ ]    |
+| Bit Manipulation | AND/OR/XOR, Check even/odd, Count bits    | [ ]    |
+| Matrix      | Row/Column traversal, Diagonal, Spiral         | [ ]    |
+
+### Level 2 — Core Data Structures (Week 3-5)
+| Topic       | Key Concepts                                    | Status |
+|-------------|------------------------------------------------|--------|
+| ArrayList   | Add/Remove, Search, Sort, Merge                | [ ]    |
+| HashMap     | Frequency map, Two-Sum, Group Anagrams         | [ ]    |
+| HashSet     | Duplicates removal, Set intersections          | [ ]    |
+| Stack       | Push/Pop, Valid Parentheses, Min Stack         | [ ]    |
+| Queue       | Enqueue/Dequeue, Circular Queue                | [ ]    |
+| Linked List | Traversal, Reverse, Detect Cycle, Merge        | [ ]    |
+
+### Level 3 — Algorithms & Patterns (Week 6-8)
+| Topic           | Key Concepts                                | Status |
+|-----------------|---------------------------------------------|--------|
+| Recursion       | Base case, Backtracking, N-Queens           | [ ]    |
+| Two Pointers    | Pair Sum, Triplet Sum, Remove Duplicates    | [ ]    |
+| Sliding Window  | Max/Min Subarray, Longest Substring         | [ ]    |
+| Prefix Sum      | Range Sum Query, Subarray Sum = K           | [ ]    |
+
+### Level 4 — Advanced Topics (Week 9-12)
+| Topic                | Key Concepts                               | Status |
+|---------------------|--------------------------------------------|--------|
+| Binary Tree          | Inorder/Preorder/Postorder BFS/DFS        | [ ]    |
+| Binary Search Tree   | Insert, Delete, Search, LCA              | [ ]    |
+| Dynamic Programming  | 0/1 Knapsack, LCS, LIS, Coin Change      | [ ]    |
+| Graphs               | BFS, DFS, Cycle Detection, Topo Sort     | [ ]    |
+
+---
+
+## FILE NAMING RULES (Keep it clean!)
+
+To avoid clutter, follow this simple naming convention:
+
+```
+ClassName.java          ← Your main solution
+ClassName_brute.java    ← Brute force version (if needed)
+```
+
+> Avoid having duplicate files like `merge2array.java` and `merge2array-wasimkhan.java`.
+> Keep only your best and final version.
+
+---
+
+## CURRENT PROGRESS
+
+- Total Files: ~100+
+- Data Structures Covered: Arrays, Strings, LinkedList, Stack, Queue, Tree, HashMap, Bits
+- Algorithms Covered: Sorting, Searching, Recursion, DP, Bit Manipulation
+- Platforms: LeetCode, NeetCode, CodeChef
 
 
 ## 🔹 Key Features
