@@ -3,6 +3,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
+
 public class LinkedListDemo {
     public static void main(String[] args) {
         // Create a LinkedList of Integers
@@ -12,7 +13,7 @@ public class LinkedListDemo {
         numbers.add(10);
         numbers.add(20);
         numbers.add(30);
-
+        
         // addFirst(E e): Adds to the beginning
         numbers.addFirst(5);
 

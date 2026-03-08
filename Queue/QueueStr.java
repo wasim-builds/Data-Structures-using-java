@@ -17,6 +17,7 @@ public class QueueStr {
 
         q.add("date");
         String peeked = q.peek();
+        // printing result
 
         System.out.println(peeked);
         System.out.println(q);

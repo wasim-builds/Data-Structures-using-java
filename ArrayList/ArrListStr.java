@@ -12,6 +12,7 @@ public class ArrListStr {
         name.set(2,"arripuka");
         System.out.println(name);
         name.add("hi");
+
         name.add("mahesh");
         for(int i=0;i<name.size();i++){
             System.out.println(name.get(i));

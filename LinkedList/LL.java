@@ -1,7 +1,7 @@
 package LinkedList;
 public class LL {
     Node head;
-
+// creating constructor
     class Node {
         String data;
         Node next;
@@ -86,6 +86,9 @@ public class LL {
             return;
         }
 
+
+
+        
         Node currNode = head;
         while (currNode != null) {
             System.out.print(currNode.data + " -> ");

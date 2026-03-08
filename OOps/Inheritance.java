@@ -29,7 +29,10 @@ public class Inheritance {
         work.name = "Chimtu ";  // Inherited property
         work.eat();           // Inherited method
         work.bark();          // Unique method
-        work.sound();
+        
+        Cat cat = new Cat();
+        cat.name = "Kitty ";
+        cat.sound();
     }
 }
 
@@ -67,14 +70,4 @@ public class Inheritance {
 
 
 
-// Real-Life Example: Family (Parent-Child Relationship)
-// Imagine a family where a child inherits features from their parents.
-// For example:
-
-// A father has a last name, eye color, and height.
-
-// His child inherits these traits but can also have unique characteristics like voice or hobbies.
-
-// Parent Class → Common Properties
-// Child Class → Inherits Parent’s Properties + Adds New Ones
 

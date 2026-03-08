@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveKDigits",
+            "request": "launch",
+            "mainClass": "Stack.RemoveKDigits",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "AsteroidCollision",
+            "request": "launch",
+            "mainClass": "Stack.AsteroidCollision",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "BasicCalculator",
+            "request": "launch",
+            "mainClass": "Stack.BasicCalculator",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Q03Inorder",
+            "request": "launch",
+            "mainClass": "Tree.Q03Inorder",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "RecursionProblems",
+            "request": "launch",
+            "mainClass": "RecursionProb.RecursionProblems",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "MinCostClimbingStairs",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.MinCostClimbingStairs",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToSellStock",
+            "request": "launch",
+            "mainClass": "Dynamic_Programming.BestTimeToSellStock",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "AnagramUsingArray",
+            "request": "launch",
+            "mainClass": "leetcode.AnagramUsingArray",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Top30TreeQuestion",
+            "request": "launch",
+            "mainClass": "Tree.Top30TreeQuestion",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "OOps.Inheritance",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Top30LinkedListQuestions",
+            "request": "launch",
+            "mainClass": "LinkedList.Top30LinkedListQuestions",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "OOps.Polymorphism",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "CelebrityProblem",
+            "request": "launch",
+            "mainClass": "Stack.CelebrityProblem",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTrees",
+            "request": "launch",
+            "mainClass": "Tree.BinaryTrees",
+            "projectName": "Data-Structures-using-java_90f6e45c"
+        },
+        {
+            "type": "java",
             "name": "StringToInteger",
             "request": "launch",
             "mainClass": "Strings.StringToInteger",

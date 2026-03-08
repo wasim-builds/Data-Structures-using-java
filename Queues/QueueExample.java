@@ -40,26 +40,6 @@ uu
 
         
         int size = q.size();
-        System.out.println("Size of queue-"
-                           + size);
+        System.out.println("Size of queue-");
 
-    }
-}
 
-//  smallesh element after k swap given a string 
-// find the smallesh leckocal that can we applied by forming atmost k swap
-// swap
-// find the length of longest sub string that caontain only unique character input abc abc 
-//abc output we should get 3
-// using a hashset
-// find the all permuttaion of string in another string
-// s1 s2 find all sub string of s2 taht are permutation of s1
-// a into b only using only inserting removing swapping adjcent character 
-// output = 4
-// long common sub string btw the two string
-
-// shorest pallindrom in string
-// find the minimum number of value 
-// to make it a pallindrom
-//abcd
-//bcadabcdf
