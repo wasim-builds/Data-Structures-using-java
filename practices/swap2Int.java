@@ -7,7 +7,7 @@ public class swap2Int {
         int temp =a;
         a=b;
         b=temp;
-//
+// swapping two numbers
         System.out.println(a+" "+b);
     }
 }
