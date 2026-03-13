@@ -1,5 +1,7 @@
 package Dynamic_Programming;
 
+
+
 public class StockMaxProfitDP {
     public static int maxProfit(int[] prices) {
         int minPrice = Integer.MAX_VALUE;
