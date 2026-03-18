@@ -11,6 +11,7 @@ import java.util.*;
  
 
 
+
  * Contains commonly used number theory functions:
  * - GCD and LCM
  * - Prime checking and generation (Sieve of Eratosthenes)
