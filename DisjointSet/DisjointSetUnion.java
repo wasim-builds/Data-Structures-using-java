@@ -12,6 +12,7 @@
  * - Network connectivity
  * - Image processing (connected components)
  */
+
 public class DisjointSetUnion {
     private int[] parent;
     private int[] rank;
