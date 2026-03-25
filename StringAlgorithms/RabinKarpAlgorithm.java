@@ -4,7 +4,7 @@
  * Space Complexity: O(1)
  * 
  * Uses rolling hash for efficient pattern matching
- * 
+ 
  * Applications:
  * - Multiple pattern search
  * - Plagiarism detection
