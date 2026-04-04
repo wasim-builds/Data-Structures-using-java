@@ -1,7 +1,7 @@
 /**
  * LeetCode #141 - Linked List Cycle
  * Difficulty: Easy
- * 
+ 
  * Floyd's Cycle Detection (Tortoise and Hare)
  * Time Complexity: O(n)
  * Space Complexity: O(1)
