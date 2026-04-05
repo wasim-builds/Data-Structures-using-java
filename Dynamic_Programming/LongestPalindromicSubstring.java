@@ -16,6 +16,7 @@ public class LongestPalindromicSubstring {
         return s.substring(start, end + 1);
     }
 
+
     private static int expand(String s, int l, int r) {
         while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)) {
             l--;
