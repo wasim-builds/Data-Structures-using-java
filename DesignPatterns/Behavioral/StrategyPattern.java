@@ -9,6 +9,7 @@ package DesignPatterns.Behavioral;
  * 
 
 
+
  * Use Cases:
  * - Different payment methods
  * - Multiple sorting algorithms
