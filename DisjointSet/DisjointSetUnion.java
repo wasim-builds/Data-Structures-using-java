@@ -5,6 +5,7 @@
  * - Union: O(α(n)) - nearly O(1) with union by rank
  * Space Complexity: O(n)
  * 
+
  * Where α(n) is the inverse Ackermann function (extremely slow growing)
  * Applications:
  * - Kruskal's MST algorithm
