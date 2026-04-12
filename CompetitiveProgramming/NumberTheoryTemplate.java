@@ -7,8 +7,6 @@ import java.util.*;
  * Number Theory Template for Competitive Programming
  
 
-
-
  * Contains commonly used number theory functions:
  * - GCD and LCM
  * - Prime checking and generation (Sieve of Eratosthenes)
