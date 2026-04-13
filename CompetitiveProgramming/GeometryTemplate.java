@@ -2,6 +2,7 @@ package CompetitiveProgramming;
 
 /**
 
+
  * Geometry Basics Template for Competitive Programming
  
  * Contains basic geometry functions:
