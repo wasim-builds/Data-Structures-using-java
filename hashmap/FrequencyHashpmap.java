@@ -12,6 +12,7 @@ public class FrequencyHashpmap{
             {
                 mp.put(arr[i],1);
             }
+            
         }
        
         
