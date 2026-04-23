@@ -6,6 +6,7 @@ package DesignPatterns.Creational;
  * Purpose: Ensures a class has only one instance and provides global access to
  * it.
  * 
+
  * Use Cases:
  * - Database connections
  * - Logger instances
