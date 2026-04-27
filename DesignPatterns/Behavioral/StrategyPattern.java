@@ -8,8 +8,6 @@ package DesignPatterns.Behavioral;
  * Strategy lets the algorithm vary independently from clients that use it.
  * 
 
-
-
  * Use Cases:
  * - Different payment methods
  * - Multiple sorting algorithms
