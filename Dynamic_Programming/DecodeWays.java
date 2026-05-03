@@ -1,5 +1,6 @@
 package Dynamic_Programming;
 
+
 public class DecodeWays {
     public static int numDecodings(String s) {
         if (s.isEmpty() || s.charAt(0) == '0') return 0;
