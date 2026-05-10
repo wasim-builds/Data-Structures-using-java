@@ -1,7 +1,5 @@
 package CompetitiveProgramming;
 import java.util.*;
-
-
 /**
  * Graph Algorithms Template for Competitive Programming
  * Contains commonly used graph algorithms:
