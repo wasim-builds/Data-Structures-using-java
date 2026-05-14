@@ -1,7 +1,6 @@
 package CompetitiveProgramming;
 
 import java.util.*;
-
 /**
  * Common Utilities Template for Competitive Programming
  * 
