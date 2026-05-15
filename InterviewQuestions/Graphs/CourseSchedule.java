@@ -1,5 +1,4 @@
 import java.util.*;
-
 /**
  * LeetCode #207 - Course Schedule
  * Difficulty: Medium
