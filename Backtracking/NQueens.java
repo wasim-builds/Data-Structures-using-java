@@ -1,4 +1,5 @@
 
+
 /**
  * LeetCode #51 - N-Queens
  * Difficulty: Hard
