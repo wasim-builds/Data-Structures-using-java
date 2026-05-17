@@ -3,7 +3,6 @@
  * Time Complexity: O(log min(a,b))
  * Space Complexity: O(1) iterative, O(log min(a,b)) recursive
  */
-
 public class GCDandLCM {
 
     // Euclidean algorithm - Recursive
