@@ -1,7 +1,6 @@
 package InterviewQuestions.LinkedList;
 
 import java.util.*;
-
 /**
  * LeetCode 138: Copy List with Random Pointer
  * 
