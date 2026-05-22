@@ -156,6 +156,7 @@ public class NumberTheoryTemplate {
         return count;
     }
 
+
     // Prime factorization - O(√n)
     public static Map<Long, Integer> primeFactorization(long n) {
         Map<Long, Integer> factors = new HashMap<>();
