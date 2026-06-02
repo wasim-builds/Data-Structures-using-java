@@ -5,6 +5,7 @@ import java.util.*;
 
 /**
 
+
  * Number Theory Template for Competitive Programming
  
 
