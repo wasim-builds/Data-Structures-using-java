@@ -9,6 +9,7 @@ import java.util.*;
  */
 public class JobSequencing {
 
+
     static class Job {
         char id;
         int deadline;
