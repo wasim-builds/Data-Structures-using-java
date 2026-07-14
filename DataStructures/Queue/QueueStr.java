@@ -1,4 +1,4 @@
-package Queue;
+package Queues;
 import java.util.LinkedList;
 import java.util.Queue;
 public class QueueStr {
@@ -17,7 +17,6 @@ public class QueueStr {
 
         q.add("date");
         String peeked = q.peek();
-        // printing result
 
         System.out.println(peeked);
         System.out.println(q);
