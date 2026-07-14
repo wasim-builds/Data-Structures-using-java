@@ -2,7 +2,6 @@ package DataStructures.arrays;
 
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
-package arrays;
 import java.util.Arrays;
 
 class merge2array {

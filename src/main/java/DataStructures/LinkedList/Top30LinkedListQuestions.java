@@ -6,7 +6,6 @@ package DataStructures.LinkedList;
  * Author: MOHAMMED WASIM KHAN
  * Repository: Data-Structures-using-java
  */
-package LinkedList;
 
 class ListNode {
     int val;

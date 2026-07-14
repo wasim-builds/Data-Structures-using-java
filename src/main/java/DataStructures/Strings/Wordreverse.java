@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Wordreverse {
     public String ReverseStr(String name){
-
+        return "";
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

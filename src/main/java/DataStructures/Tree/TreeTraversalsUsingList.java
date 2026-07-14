@@ -4,7 +4,6 @@ package DataStructures.Tree;
  * A complete, runnable example of binary tree traversals in Java.
  * This file includes the TreeNode definition and the traversal logic.
  */
-package Tree;
 public class TreeTraversalsUsingList {
 
     /**

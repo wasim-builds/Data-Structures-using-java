@@ -5,7 +5,6 @@ package Algorithms.Recursion;
 // Author: MOHAMMED WASIM KHAN
 // 14 Problems from Basic to Advanced
 // ============================================
-package RecursionProb;
 import java.util.*;
 
 public class RecursionProblems {
