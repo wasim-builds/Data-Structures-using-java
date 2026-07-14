@@ -32,21 +32,40 @@ Contains highly-optimized algorithms categorized by their methodology.
 
 ---
 
-## 💻 How to Use
+## 💻 How to Use (For Beginners & Developers)
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/wasim-builds/Data-Structures-using-java.git
-   ```
-2. **Navigate to a concept:**
-   ```bash
-   cd DataStructures/AdvancedDataStructures
-   ```
-3. **Compile and Run:**
-   ```bash
-   javac AVLTree.java
-   java AVLTree
-   ```
+This project uses **Maven**, the industry standard build tool for Java. This means you do not have to manually compile files one by one!
+
+### 1. Prerequisites
+- **Java 17** or higher installed on your machine.
+- **Maven** installed (`mvn -version` to verify).
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/wasim-builds/Data-Structures-using-java.git
+cd DataStructures-using-java
+```
+
+### 3. Compile the Code
+To compile all 80+ algorithms and data structures at once, simply run:
+```bash
+mvn clean compile
+```
+
+### 4. Run the Automated Tests
+We have enterprise-grade unit tests built-in! To prove the algorithms work flawlessly, run:
+```bash
+mvn test
+```
+
+### 5. Running a Specific Algorithm
+Because we use proper Java `package` structures, you should run individual files directly from the `src/main/java` root directory.
+For example, to run the Tic-Tac-Toe Low-Level Design file:
+```bash
+cd src/main/java
+javac OOps/LowLevelDesign/TicTacToe.java
+java OOps.LowLevelDesign.TicTacToe
+```
 
 ---
 
